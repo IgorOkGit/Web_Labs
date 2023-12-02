@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task 1</title>
+</head>
+<style type="text/css">
+    body{
+        color: white;
+        background-image: url("https://cdn.wallpapersafari.com/31/50/dNQTbX.jpg");
+        background-size: cover;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;
+
+    }
+    .bord{
+        background-color:rgba(0, 0, 0, 0.5) ;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 30px;
+    }
+    .butt{
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+    button{
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        background: linear-gradient(to right, #ffff00, #0000ff, #ffff00);
+        background-size: 200% auto; 
+        animation: buttonGradient 5s linear infinite;
+        font-weight: bold;
+    }
+    @keyframes buttonGradient {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+</style>
+<body>
+    <div class="butt">
+    <button onclick="window.location.href ='YareskoLab04-6.html'">Наступне завдання</button>
+    </div>
+
+    <ol class="bord">
+    <h1>Список кімнатних квітів</h1>
+
+    <li> <h2>Сімейство Ампельні</h2>
+
+    <ul type="square">
+        <li>Фікус бенджаміна</li>
+        <li>Плющ</li>
+        <li>Традесканція</li>
+    </ul></li>
+
+     <li><h2>Сімейство Квітучі</h2>
+    <ul type="disc">
+        <li>Роза</li>
+        <li>Герань</li>
+        <li>Гвоздика</li>
+    </ul></li>
+
+    <li><h2>Сімейство Сукуленти</h2>
+    <ul type="circle">
+        <li>Алое вера</li>
+        <li>Сенеціо</li>
+        <li>Хаворція</li>
+    </ul></li>
+
+    <li><h2>Сімейство Кактуси</h2>
+    <ul type="disc">
+        <li>Опунція</li>
+        <li>Епіфіллум</li>
+        <li>Ферокактус</li>
+    </ul></li>
+
+    </ol>
+
+
+</body>
+</html>

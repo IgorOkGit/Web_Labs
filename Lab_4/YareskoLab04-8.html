@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task 4</title>
+</head>
+<style type="text/css">
+body{
+	color: white;
+	background-image: url("https://cdn.wallpapersafari.com/31/50/dNQTbX.jpg");
+	background-size: cover;
+	padding: 15px;
+	padding-top: 10%;
+
+}
+.table{
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+.bord{
+    background-color:rgba(0, 0, 0, 0.5) ;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 20px;
+}
+.buttprev{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #ffff00, #0000ff, #ffff00);
+    background-size: 200% auto; 
+    animation: buttonGradient 5s linear infinite;
+    font-weight: bold;
+}
+@keyframes buttonGradient {
+0% {
+    background-position: 200% 0;
+}
+100% {
+    background-position: -200% 0;
+}
+</style>
+
+<body>
+
+    <div class="buttprev">
+    	<button onclick="window.location.href = 'YareskoLab04-7.html'">Попереднє завдання</button>
+    </div>
+    <div class="table">
+    <ol class="bord">
+    	<h2><u>Список дисциплін </u></h2>
+    	<li>Бази даних</li>
+    	<li>Веб-програмування та веб-дизайн</li>
+    	<li>Іноземна мова (за професійним спрямуванням)</li>
+    	<li>Методи та системи штучного інтелекту</li>
+    	<li>Основи 3d-друку та моделювання</li>
+    </ol>
+    <ul class="bord">
+    	<h2><u>Список улюблених страв</u></h2>
+    	<li>Рис з карі</li>
+    	<li>Макарони з м'ясом</li>
+    	<li>Паста карбонара</li>
+    </ul>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task 2</title>
+</head>
+<style type="text/css">
+	body{
+		background-image: url("https://static.vecteezy.com/system/resources/previews/004/941/847/original/cosmetic-background-for-product-branding-and-packaging-presentation-geometry-form-circle-molding-on-podium-stage-with-shadow-of-leaf-background-design-eps10-vector.jpg");
+		background-attachment: fixed;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 900px;
+	}
+	h2{
+		color: red;
+		line-height: 0;
+	}
+	table{
+		text-align: center;
+		width: 50%;
+		border-collapse: separate;
+		border-spacing: 5px;
+		font-size: 24px;
+		background-color: #64DACC;
+		margin: 8px;
+	}
+	th{
+		color: red;
+        border: 2px double #9B9B9B;
+        padding: 5px 0;
+	}
+	td{
+        border: 2px double #9B9B9B;
+        padding: 8px;
+        white-space: nowrap;
+	}
+	button{
+		padding: 10px 20px;
+		font-size: 22px;
+		border: none;
+		cursor: pointer;
+		background: linear-gradient(to right, #ffff00, #0000ff, #ffff00);
+		background-size: 200% auto; 
+		animation: buttonGradient 5s linear infinite;
+		font-weight: bold;
+	    position: absolute;
+	    top: 30px;
+	    right: 5%;
+	    left: 80%;
+
+	}
+	@keyframes buttonGradient {
+		0% {
+		background-position: 200% 0;
+		}
+		100% {
+		background-position: -200% 0;
+		}
+
+</style>
+<body>
+
+<header>
+	<nav>
+		<div style="margin: 10px;">
+			<button onclick="window.location.href ='YareskoLab07-4.html'">Наступне завдання</button>
+		</div>
+		
+	</nav>
+
+</header>
+
+<form action="YareskoLab07-2 (successful).html">
+	<table border="2">
+
+		<tr>
+			<th colspan="3" ><h2>Анкета</h2></th>
+		</tr>
+		
+		<tr>
+			<td>1.</td>
+			<td>Прізвище</td>
+			<td><input type="text" name="lastname" maxlength="40" size="40"></td>
+		</tr>
+
+		<tr>
+			<td>2.</td>
+			<td>Ім'я, По-батькові</td>
+			<td><input type="text" name="name" maxlength="40" size="40"></td>
+		</tr>
+
+		<tr>
+			<td>3.</td>
+			<td>Число і рік народження</td>
+			<td><input type="text" name="year" maxlength="40" size="40"></td>
+		</tr>
+
+		<tr>
+			<td>4.</td>
+			<td>Домашня адреса</td>
+			<td><input type="text" name="adress" maxlength="40" size="40"></td>
+		</tr>
+
+		<tr>
+			<td>5.</td>
+			<td>Місце навчання(роботи)</td>
+			<td><input type="text" name="place" maxlength="40" size="40"></td>
+		</tr>
+
+		<tr>
+			<td>6.</td>
+			<td>Домашній(робочий) телефон</td>
+			<td><input type="text" name="number" maxlength="40" size="40"></td>
+		</tr>
+
+		<tr>
+			<td>7.</td>
+			<td>E-mail</td>
+			<td><input type="text" name="email" maxlength="40" size="40"></td>
+		</tr>
+
+		<tr>
+			<td>8.</td>
+			<td>Область наукових інтересів</td>
+			<td>1.<input type="text" name="area#1" maxlength="40" size="40"><br>
+				2.<input type="text" name="area#2" maxlength="40" size="40"><br>
+				3.<input type="text" name="area#3" maxlength="40" size="40"><br>
+				4.<input type="text" name="area#4" maxlength="40" size="40"><br>
+				5.<input type="text" name="area#5" maxlength="40" size="40"><br>
+				6.<input type="text" name="area#6" maxlength="40" size="40"><br>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3" style="text-align: left;">
+				<input type="reset" value="Відмінити введення"><br>
+				<input type="submit" value="Надіслати дані та перейти до 2-го етапу реєстрації">
+				
+			</td>
+		</tr>
+
+	</table>
+
+
+</form>
+
+</body>
+</html>

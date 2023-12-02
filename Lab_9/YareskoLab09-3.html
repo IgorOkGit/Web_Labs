@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task 3</title>
+</head>
+<style>
+	body{
+		background-image: url("https://cdn.wallpapersafari.com/50/17/ajxu8R.jpg");
+		background-attachment: fixed;
+		background-size: cover;
+		color: white;
+	}
+	button{
+		padding: 10px 20px;
+		font-size: 22px;
+		border: none;
+		cursor: pointer;
+		background: linear-gradient(to right, #D40000, #000000, #D40000);
+		background-size: 200% auto; 
+		animation: buttonGradient 5s linear infinite;
+		font-weight: bold;
+		color: white;
+		}
+	@keyframes buttonGradient {
+		0% {
+		background-position: 200% 0;
+		}
+		100% {
+		background-position: -200% 0;
+		}
+	}
+	nav{
+		display: flex;
+		justify-content: space-between;
+		align-items: right;
+		border: 2px solid white;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 5px;
+	}
+	.left_button{
+		margin-right: auto;
+	}
+	h1{
+		font-weight: bold;
+		text-align: center;
+	}
+	.boldName{
+		font-weight: bold;
+	}
+	li{
+		font-size: 24px;
+		padding: 5px;
+		text-align: justify;
+		margin: 5px;
+		line-height: 30px;
+	}
+	main{
+		border: 2px solid white;
+		margin: 10px;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	img{
+
+	}
+	.imgStyle img{
+		margin: 15px;
+		width: 400px;
+		height: auto;
+		border: 2px solid white;
+		box-sizing: border-box;
+
+	}
+	.containerForImages{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.menu{
+		list-style: none;
+	 	padding: 0;
+	 	margin: 0;
+
+
+	}
+	.menu li{
+		display: inline-block;
+ 		margin-right: 10px;
+	 	text-decoration: none;
+	 	color: white;
+	 	padding: 10px;
+	 	position: relative;
+	}
+	.menu li a{
+		text-decoration: none;
+	}
+	.menu li a:hover,
+	.menu li a:active {
+		border-radius: 5px;
+		padding: 5px;
+		color: lightblue;
+	}
+	a{
+		color: white;
+	 	text-decoration: none;
+	}
+	small{
+		display: flex;
+		justify-content: right;
+		align-items: right;
+	}
+	.divSmall{
+		border: 2px solid whitesmoke;
+		margin-right: 10px;
+		padding: 10px;
+
+	}
+	.submenu{
+		display: none;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.submenu li{
+		border-bottom: 2px solid white;
+		padding: 10px;
+		margin: 0;
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.menu li:hover .submenu{
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.8);
+		padding: 5px;
+	}
+</style>
+<body>
+
+	<header>
+		<nav>
+			<div class="left_button">
+				<button onclick="window.location.href ='YareskoLab09-2.html'">Попереднє завдання</button>
+			</div>
+			
+			<ul class="menu">
+			  <li>
+			  	<a href="#galaxies">Галактики</a>
+			  	<ul class="submenu">
+			  		<li><a href="#Milky_Way">Молочний шлях</a></li>
+			  		<li><a href="#Andromeda">Андромеда</a></li>
+			  	</ul>
+			  </li>
+			  <li>
+			  	<a href="#planets">Планети</a>
+			  	<ul class="submenu">
+			  		<li><a href="#Jupiter">Юпітер</a></li>
+			  		<li><a href="#Mars">Марс</a></li>
+			  		<li><a href="#Mercury">Меркурій</a></li>
+		  		</ul>
+			  </li>
+			  <li>
+			  	<a href="#cosmic_phenomena">Космічні феномени</a>
+			  	<ul class="submenu">
+			  		<li><a href="#black_holes">Чорні діри</a></li>
+			  		<li><a href="#cut">Зрізання простору-часу</a></li>
+		  		</ul>
+			  </li>
+			  <li><a href="#space_missions">Космічні місії</a></li>
+			  <li><a href="#general_facts">Загальні факти</a></li>
+			</ul>
+
+
+		</nav>
+	</header>
+
+	<main>
+		<h1 id="galaxies">Галактики</h1>
+		<ol>
+			<li>
+				<span class="boldName" id="Milky_Way">Молочний шлях</span><span> - Наша власна галактика, у якій знаходиться Сонячна система. Це величезна спіральна галактика, діаметр якої становить близько 100 тисяч світлових років.</span>
+				<div class="containerForImages"><div class="imgStyle"><img src="https://3.bp.blogspot.com/-DdNhoOo3dtA/Uq7FJBkiS4I/AAAAAAAAAEE/qSKDDio_244/s1600/skolko_zvezd_andromeda.jpg"></div></div>
+				
+			</li>
+
+			<li>
+				<span class="boldName" id="Andromeda">Андромеда </span><span> - вона є найближчою до Молочного Шляху спіральною галактикою. Знаходиться на відстані близько 2,5 мільйонів світлових років від нас. Ця галактика має багато зірок і супутників, а також вона із землі видна навіть неозброєним оком.</span>
+				<div class="containerForImages"><div class="imgStyle"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/M31_09-01-2011_%28cropped%29.jpg"></div></div>
+				
+				
+			</li>
+		</ol>
+
+		<h1 id="planets">Планети</h1>
+		<ol>
+			<li>
+				<span class="boldName" id="Jupiter">Юпітер</span><span> - Найбільша планета у Сонячній системі, газовий гігант, у кулястій формі якого можна помістити всі інші планети разом взяті.</span>
+				<div class="containerForImages"> <div class="imgStyle"><img src="https://prm.ua/wp-content/uploads/2019/06/jupiter.jpg"></div></div>
+				
+				
+			</li>
+			<li>
+				<span class="boldName" id="Mars">Марс</span><span> - Ця планета має схожість з Землею у багатьох аспектах, що спонукає до досліджень можливостей життя на ній. Марс відомий своїми полюсами, вулканами та характерними червоними пісками.</span>
+				<div class="containerForImages"> <div class="imgStyle"><img src="https://images.techinsider.ru/upload/img_cache/982/982fe0d83f1e1f1884869767148de802_ce_1900x1000x13x0_cropped_1200x628.jpg"></div></div>
+				
+				
+			</li>
+
+			<li>
+				<span class="boldName" id="Mercury">Меркурій</span><span> - Це найближча до Сонця планета у нашій Сонячній системі. Меркурій має найкоротший період обертання навколо свого власного обертового віселя, тому його дні тривають близько 176 земних днів.</span>
+				<div class="containerForImages"> <div class="imgStyle"><img src="https://static.wikia.nocookie.net/astronomy/images/d/d6/Mercury-l-1.jpg/revision/latest?cb=20140730161852&path-prefix=ru"></div></div>
+				
+				
+			</li>
+		</ol>
+
+		<h1 id="cosmic_phenomena">Космічні явища</h1>
+		<ol>
+			<li>
+				<span class="boldName" id="black_holes">Чорні діри</span><span> - Об'єкти, що мають настільки сильне гравітаційне поле, що нічого не може вибратися навіть із світлового пастка. Вони виникають в результаті колапсу великих зір або злиття гігантських об'єктів.</span>
+				<div class="containerForImages"> <div class="imgStyle"><img src="https://kor.ill.in.ua/m/1260x900/2533232.jpeg"></div></div>
+				
+				
+			</li>
+			<li>
+				<span class="boldName" id="cut">Зрізання простору-часу</span><span> - Явище, коли масивні об'єкти вигинають світло, утворюючи спотворення у вигляді розтягнених або зміщених об'єктів.</span>
+				<div class="containerForImages"> <div class="imgStyle"><img src="https://24tv.ua/resources/photos/news/202009/1406304.jpg?v=1661268301000&w=640&h=480_DIR&q=80"></div></div>
+				
+				
+			</li>
+		</ol>
+
+		<h1 id="space_missions">Космічні місії</h1>
+		<ol>
+			<li>
+				<span class="boldName">Плутон</span><span> - Довгий час вважався дев'ятою планетою, але потім був класифікований як карликова планета. Загадковий світ, який був досліджений космічним апаратом New Horizons у 2015 році</span>
+				<div class="containerForImages"> <div class="imgStyle"><img src="https://focus.ua/static/storage/thumbs/1088x/7/c3/a7ed8082-100c1f63b913ce20a945ee4c55f1ac37.jpg"></div></div>
+				
+				
+			</li>
+		</ol>
+
+		<h1 id="general_facts">Загальні факти</h1>
+		<ul>
+			<li>
+				Космос не має відомого кінця, він безкрайній та постійно розширюється.
+			</li>
+			<li>
+				На Сонці може поміститися близько мільйона Земель.
+			</li>
+			<li>
+				Астронавти зазнають змін у своєму зрості та розмірі через невагомість у космосі.
+			</li>
+		</ul>
+		
+	</main>
+
+	<footer>
+		<small>
+			<div class="divSmall">
+			Автор сайту: Яресько Ігор<br>
+			Дата створення:11/24/2023<br>
+			</div>
+		</small>
+	</footer>
+</body>
+</html>

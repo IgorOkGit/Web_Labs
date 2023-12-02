@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shapes</title>
+	<style>
+body{
+	background-image: url("https://media.newyorker.com/photos/623a1413d2edfd75e5c5c7d5/16:9/w_1200,h_675,c_limit/halpern_ukraine_hack.gif") ;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	font-size: 20px;
+
+
+}
+.bord{
+	border: 2px solid white;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+}
+.imgcontainer{
+	display: flex;
+	justify-content: center;
+}
+.For_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+button{
+	padding: 10px 20px;
+	font-size: 22px;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(to right, #ffff00, #0000ff, #ffff00);
+	background-size: 200% auto; 
+	animation: buttonGradient 5s linear infinite;
+	font-weight: bold;
+}
+@keyframes buttonGradient {
+	0% {
+	background-position: 200% 0;
+	}
+	100% {
+	background-position: -200% 0;
+	}
+}
+	</style>
+</head>
+<body class="For_body">
+	<header>
+
+		<nav>
+
+			<div style="position: absolute; right: 10px; top: 20px;">
+				<button onclick="window.location.href ='YareskoLab06-5.html'">Наступне завдання</button>
+			</div>
+
+			<div style="position: absolute; left: 10px; top: 20px;">
+				<button onclick="window.location.href ='YareskoLab06-3.html'">Попереднє завдання</button>
+			</div>
+
+		</nav>
+	</header>
+	<main class="bord"  class="imgcontainer">
+			<map name="aboutMe">
+				<area shape="poly" coords="150, 2, 0, 130, 300, 130" href="YareskoLab01-9.html" title="Головна сторінка" >
+			</map>
+
+			<div>
+			<img src="triangle.png" width="300" height="auto" border="1" usemap="#aboutMe">
+			</div>
+
+
+			<map name="myHyperlink">
+				<area shape="circle" coords="100, 95, 65" href="YareskoLab05-3.html" title="Мої гіперпосилання" >
+			</map>
+
+			<div>
+			<img src="circle.png" width="200" height="auto" border="1" usemap="#myHyperlink">
+			</div>
+
+
+			<map name="homeland">
+				<area shape="rect" coords="60, 10, 220, 140" href="YareskoLab06-3.html" title="Про Батьківщину" >
+			</map>
+
+			<div>
+			<img src="https://www.dhs.gov/sites/default/files/styles/medium/public/2022-04/22_0425_opa_u4u_dhsgov-card_final.jpg?itok=pjCE67Cl" width="280" height="auto" border="1" usemap="#homeland">
+			</div>
+	</main>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body{
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26bcbe81-a3fa-43da-8b10-7b37ce15b07d/demdz12-032fbb3e-a07e-4f59-bc26-4fdda3013cb8.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2YmNiZTgxLWEzZmEtNDNkYS04YjEwLTdiMzdjZTE1YjA3ZFwvZGVtZHoxMi0wMzJmYmIzZS1hMDdlLTRmNTktYmMyNi00ZmRkYTMwMTNjYjguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3HR9CuV_J6urOo8jsHjFtfjoXPtDhLEFgUT6Si5Gkro");
+	background-size: cover;
+
+}
+.For_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.bodyStyle{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26bcbe81-a3fa-43da-8b10-7b37ce15b07d/demdz12-032fbb3e-a07e-4f59-bc26-4fdda3013cb8.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2YmNiZTgxLWEzZmEtNDNkYS04YjEwLTdiMzdjZTE1YjA3ZFwvZGVtZHoxMi0wMzJmYmIzZS1hMDdlLTRmNTktYmMyNi00ZmRkYTMwMTNjYjguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3HR9CuV_J6urOo8jsHjFtfjoXPtDhLEFgUT6Si5Gkro");
+	background-size: cover;
+}
+
+.button-next{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+}
+.button {
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(to right, #ffff00, #0000ff, #ffff00);
+ 	background-size: 200% auto;	
+ 	animation: buttonGradient 5s linear infinite;
+ 	font-weight: bold;
+
+}
+
+@keyframes buttonGradient {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+.button-previous{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+.tableStyle{
+	width: 75%;
+	height: auto;
+	background: rgba(0, 0, 0, 0.3);
+	border-collapse: collapse;
+	border: 2px double white;
+	border-spacing: 3px;
+	position: absolute;
+	right: 2px;
+	font-size: 28px;
+	color: white;
+}
+
+.tableStyle_5{
+	width: 75%;
+	height: auto;
+	background: rgba(277, 277, 277, 0.1);
+	border-collapse: collapse;
+	border: 2px double white;
+	border-spacing: 3px;
+	font-size: 28px;
+	color: white;
+}
+th, td {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+.imgStyle{
+	max-width: 100px;
+	height: auto;
+}
+
+.locationL{
+	text-align: left;
+
+}
+
+.locationUp{
+	vertical-align: top;
+
+}
+
+.locationCenter{
+	text-align: center;
+}
+
+
+.loc1{
+	vertical-align: top;
+}
+.loc2{
+	text-align: left;
+}
+.loc3{
+	text-align: right;
+}
+.loc4{
+	text-align: center;
+}
+.loc5{
+	text-align: right;
+	vertical-align: bottom;
+}
+.loc6{
+	vertical-align: bottom;
+	text-align: left;
+}
+.loc7{
+	vertical-align: bottom;
+}
+
+.toTheLeft{
+	text-align: left;
+}
+
+.toNextPage{
+	width: 100px;
+	text-align: justify;
+}
+
+.tableStyle_8{
+	width: 75%;
+	height: auto;
+	background: rgba(277, 277, 277, 0.1);
+	font-size: 28px;
+	color: white;
+	border: none;
+}

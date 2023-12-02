@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task 2</title>
+</head>
+<style type="text/css">
+body{
+	color: white;
+	background-image: url("https://cdn.wallpapersafari.com/31/50/dNQTbX.jpg");
+	background-size: cover;
+	padding: 15px;
+	padding-top: 10%;
+
+}
+.table{
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+.bord{
+    background-color:rgba(0, 0, 0, 0.5) ;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 30px;
+}
+.butt{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+.buttprev{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #ffff00, #0000ff, #ffff00);
+    background-size: 200% auto; 
+    animation: buttonGradient 5s linear infinite;
+    font-weight: bold;
+}
+@keyframes buttonGradient {
+0% {
+    background-position: 200% 0;
+}
+100% {
+    background-position: -200% 0;
+}
+</style>
+<body>
+
+	<div class="butt">
+    <button onclick="window.location.href ='YareskoLab04-7.html'">Наступне завдання</button>
+    </div>
+    <div class="buttprev">
+    	<button onclick="window.location.href = 'YareskoLab04-5.html'">Попереднє завдання</button>
+    </div>
+
+	<h1 align="center">Список садових квітів</h1>
+
+<div class="table">
+
+<ul class="bord">
+	<li type="bord"><h2>Однорічні квіти</h2></li>
+    <ul>
+        <li>Маріголди</li>
+        <li>Петунії</li>
+        <li>Наствійка</li>
+    </ul>
+
+    <li type="bord"><h2>Багаторічні квіти</h2></li>
+    <ul>
+        <li>Ромашки</li>
+        <li>Лаванда</li>
+        <li>Гладіолуси</li>
+    </ul>
+
+    <li type="bord"><h2>Луковичні квіти</h2></li>
+    <ul>
+        <li>Тюльпани</li>
+        <li>Лілії</li>
+        <li>Нарциси</li>
+    </ul>
+
+</ul>
+</div> 
+
+</body>
+</html>
